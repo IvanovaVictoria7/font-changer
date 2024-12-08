@@ -1,10 +1,12 @@
 ## main стартовый модуль проекта
 
-from functions import funс1, func2
+from functions import process_documents
 
 def main():
     #TODO-сделай вызов функций из functions
-    pass
+    dir = "documents"
+    files = ["1.docx", "2.docx", "3.docx","4.docx","5.docx"]
+    process_documents(dir)
 
 #инициализационный скрипт
 if __name__ == "__main__" :
